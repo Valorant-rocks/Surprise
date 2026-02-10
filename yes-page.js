@@ -188,7 +188,7 @@ const CAROUSEL_ASSETS = [
     { name: 'OG moment with OG PFP.png', type: 'image' },
     { name: 'Running with supersonic speed to my heart.png', type: 'image' },
     { name: 'The only thing you have bigger is FOREHEAD.webp', type: 'image' },
-    { name: 'This will Forever be My Fav moment.MOV', type: 'video' },
+    { name: 'This will Forever be My Fav moment.mp4', type: 'video' },
     { name: 'Thulo Manxe Bannu.jpg', type: 'image' },
     { name: 'Why so surprised.jpg', type: 'image' }
 ];
