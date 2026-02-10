@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yes! — Valentine</title>
+    <link rel="stylesheet" href="yes-page.css">
+</head>
+<body>
+    <canvas id="heartCanvas"></canvas>
+    <!-- Intro view: text + gift icon -->
+    <section class="intro-view" id="introView">
+        <h1 class="yes-heading">Yes i knew it ahahhahaha</h1>
+        <button type="button" class="gift-btn" id="giftBtn" aria-label="Open gift">
+            <span class="gift-icon">🎁</span>
+        </button>
+    </section>
+
+    <!-- Background music (plays when carousel is shown) -->
+    <audio id="backgroundMusic" class="background-music" loop preload="auto">
+        <source src="assets/yung%20kai%20-%20blue%20(official%20music%20video).mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Carousel view (shown after gift click) -->
+    <section class="carousel-view" id="carouselView" aria-hidden="true">
+        <div class="carousel-container">
+            <div class="carousel-track-wrapper">
+                <div class="carousel-track" id="carouselTrack">
+                    <!-- Slides built from assets in yes-page.js -->
+                </div>
+            </div>
+        </div>
+        <div class="carousel-dots" id="carouselDots"></div>
+        <p class="carousel-caption" id="carouselCaption" aria-live="polite"></p>
+        <a href="proceed-page.html" class="carousel-proceed" id="carouselProceed">Proceed</a>
+    </section>
+
+    <script src="yes-page.js"></script>
+</body>
+</html>
